@@ -6,7 +6,7 @@ const ControllerVend = require('./controller/controllerVend');
 
 const routes = express.Router();
 
-routes.get('/', ControllerRaiz.raiz);
+routes.get('/', ControllerRaiz.raiz); 
 
 
 routes.get('/produtos', ControllerProds.produtos);
